@@ -2,6 +2,12 @@
 
 A transparent, always-on-top Windows desktop companion built with Electron, React, and Three.js. Choose **Deep** or **Hulk**, move between monitors, interact with the character, and have voice conversations using local Ollama and Whisper with ElevenLabs speech output.
 
+## Characters
+
+| Deep | Hulk |
+| :---: | :---: |
+| <img src="public/images/deep_avatar.png" alt="Deep desktop companion" width="280"> | <img src="public/images/Hulk.png" alt="Hulk desktop companion" width="280"> |
+
 ## Run
 
 1. Install Node.js LTS (includes npm) and Ollama.
@@ -38,6 +44,8 @@ Release movement keys to stop. Holding **Space** or **H** does not repeatedly tr
 The companion window stays on top and receives mouse input. The separate smash overlay passes clicks through. Characters do not walk on the edges of other application windows.
 
 ## Hulk's jump and smash
+
+![Hulk Smash effect](public/images/Hulk_Smash.png)
 
 Select **Hulk** and press **Space** for a 2.4-second action:
 
